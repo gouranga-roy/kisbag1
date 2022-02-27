@@ -1,0 +1,94 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*work-banner*/
+.work-banner{
+	background: url(../image/banner.jpg)no-repeat scroll center center / cover;
+	width: 100%;
+	height: 86vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	text-align: center;
+}
+.banner-content h2{
+	color: #fff;
+	font-size: 5rem;
+	margin-bottom: 1rem;
+}
+.banner-content p{
+	color: #ddd;
+	text-transform: uppercase;
+	font-weight: 600
+}
+/*work-project*/
+.work-project{
+	padding-top: 8rem;
+}
+.work-simple-project{
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: 1fr 3rem 1fr;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 3rem;
+}
+.work-project-item{
+	-webkit-box-shadow: 0 0 .2rem rgba(0, 0, 0, .1);
+	        box-shadow: 0 0 .2rem rgba(0, 0, 0, .1);
+	margin-bottom: 5rem;
+}
+.work-project-item img{
+	width: 100%;
+	max-height: 350px;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.work-caption{
+	padding: 2rem;
+}
+.work-caption h4{
+	font-size: 2.5rem;
+	color: #161616;
+	padding-bottom: .5rem;
+}
+.work-caption p{
+	padding-bottom: .3rem;
+	color: #161616;
+}
+.work-caption span{
+	color: #999999;
+}
+/*page-link*/
+.page-link{
+	margin-bottom: 5rem;
+}
+.page-link-item{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 10rem 0;
+	background: #161616;
+}
+.page-link-item h2{
+	padding: 0 10rem;
+}
+.page-link-item h2 a{
+	color: #fff;
+	text-transform: uppercase;
+}

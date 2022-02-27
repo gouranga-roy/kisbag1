@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Kisbag Template</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Gouranga Roy"/>
+		<meta name="keyword" content="html template, psd template"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.1"/>
+		<link rel="stylesheet" href="asset/css/fontawesome.min.css"/>
+		<link rel="stylesheet" href="asset/css/style.css" type="text/css" media="all"/>
+	</head>
+	<body>
+		<header class="header-area">
+			<div class="header-logo">
+				<h2><a href="index.html">K!sbag Design Studio</a></h2>
+				<span onclick="btnToggle()"><i class="fa-solid fa-bars-staggered"></i></span>
+			</div>
+			<div id="menu-area">
+				<nav class="menu">
+					<h2>K!sbag Design Studio</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="works.html">Works</a></li>
+						<li><a href="collection.html">Logo Collection</a></li>
+						<li><a href="about.html">About & Contact</a></li>
+						<li><a href="blog.html">Block</a></li>
+					</ul>
+					<span onclick="btnClose();"><i class="fa-solid fa-xmark"></i></span>	
+				</nav>
+			</div>
+		</header>
+		<!-- Banner area -->
+		<section class="banner-area">
+			<div class="about-slider">
+				<div class="container">
+					<div class="slider-content">
+						<h2>K!sbag Design Studio</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quos impedit inventore, illum? Laborum maxime quidem dolore ab quis consequatur?</p>
+						<a class="btn1" href="#">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="slider-dots">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</section>
+
+		<!-- project-area -->
+		<section class="project-area">
+			<div class="container">
+				<div class="project-items">
+					<div class="project-left">
+						<h4>About Us.</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur
+						adipiscing elit, sed do eiusmod tempor incididunt
+						ut labore et dolore magna aliqua. Ut enim ad
+						minim veniam, quis nostrud exercitation ullamco
+						laboris nisi.</p>
+						<p>onsectetur
+						adipiscing elit, sed do eiusmod tempor incididunt
+						ut labore et dolore magna aliqua. Ut enim ad
+						minim veniam, quis nostrud exercitation ullamco
+						laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class="project-right about-project-right">
+						<img src="asset/image/portfolio-2.jpg" alt="portfolio-img"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- project date -->
+		<section class="project-date about-date">
+			<div class="container">
+				<div class="project-date-items">
+					<div class="date-item">
+						<h4>Our Standards.</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class="date-item">
+						<h4>Why We Do It.</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+			</div>
+		</section>				
+		<!-- about gallery -->
+		<section class="about-gallery">
+			<div class="container">
+				<div class="about-gallery-item">
+					
+				</div>
+			</div>
+		</section>
+		<!-- About description -->
+		<section class="about-des">
+			<div class="container">
+				<div class="about-des-item">
+					<div class="about-single-item">
+						<h4>What We Do.</h4>
+						<ul>
+							<li>Branding</li>
+							<li>Web Design</li>
+							<li>Illustration</li>
+							<li>Development</li>
+						</ul>
+					</div>
+					<div class="about-single-item">
+						<h4>What We Do.</h4>
+						<p>jobs@yoursite</p>
+					</div>
+					<div class="about-single-item">
+						<h4>Start a project.</h4>
+						<p>hello@yoursite</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- page link item -->
+		<section class="page-link">
+			<div class="container">
+				<div class="page-link-item">
+					<h2><a href="works.html">Works</a></h2>
+					<h2><a href="collection.html">Logos</a></h2>
+				</div>
+			</div>
+		</section>
+		<!-- Footer area -->
+		<footer class="footer-area">
+			<div class="container">
+				<div class="footer-items">
+					<div class="footer-single-item">
+						<h4>Get in Touch</h4>
+						<p>hello@yoursite</p>
+					</div>
+					<div class="footer-single-item">
+						<ul>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Pinterest</a></li>
+							<li><a href="#">Dribble</a></li>
+							<li><a href="#">Linkedin</a></li>
+						</ul>
+					</div>
+					<div class="footer-single-item">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Works</a></li>
+							<li><a href="#">Logo Collection</a></li>
+							<li><a href="#">About & Contact</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+		<!-- js file -->
+		<script>
+			var btnToggle1 = document.getElementById('menu-area');
+			var menu = document.querySelector('.menu');
+			function btnToggle(){
+				btnToggle1.classList.add('active');
+				menu.classList.add('add-menu');
+			}
+			function btnClose(){
+				btnToggle1.classList.remove('active');
+				menu.classList.remove('add-menu');
+			}
+
+
+		</script>
+	</body>
+</html>

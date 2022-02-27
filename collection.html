@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Kisbag Template</title>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Gouranga Roy"/>
+		<meta name="keyword" content="html template, psd template"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.1"/>
+		<link rel="stylesheet" href="asset/css/fontawesome.min.css"/>
+		<link rel="stylesheet" href="asset/css/style.css" type="text/css" media="all"/>
+	</head>
+	<body>
+		<header class="header-area">
+			<div class="header-logo">
+				<h2><a href="index.html">K!sbag Design Studio</a></h2>
+				<span onclick="btnToggle()"><i class="fa-solid fa-bars-staggered"></i></span>
+			</div>
+			<div id="menu-area">
+				<nav class="menu">
+					<h2>K!sbag Design Studio</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="works.html">Works</a></li>
+						<li><a href="collection.html">Logo Collection</a></li>
+						<li><a href="about.html">About & Contact</a></li>
+						<li><a href="blog.html">Block</a></li>
+					</ul>
+					<span onclick="btnClose();"><i class="fa-solid fa-xmark"></i></span>	
+				</nav>
+			</div>
+		</header>
+		<!-- Banner area -->
+		<section class="solution-banner">
+			<div class="container">
+				<div class="banner-content">
+					<h2>Logo Collection.</h2>
+					<p>Solution & Design</p>
+				</div>
+			</div>
+		</section>
+		<!-- Works project area -->
+		<section class="logo-collection">
+			<div class="container">
+				<div class="collection-items">
+					<div class="collection">
+						<img src="asset/image/portfolio_img1.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/portfolio_img2.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/portfolio_img3.png" alt="img-one"/>
+					</div>	
+					<div class="collection">
+						<img src="asset/image/portfolio_img4.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/portfolio_img5.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/portfolio_img6.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/portfolio_img7.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/portfolio_img8.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/gallery_1.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/gallery_2.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/gallery_3.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/gallery_4.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/gallery_5.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/gallery_6.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/simgple_thumb1.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/simgple_thumb2.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/image3.png" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/simgple_thumb3.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/simgple_thumb4.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/thumb_img1.jpg" alt="img-one"/>
+					</div>
+					<div class="collection">
+						<img src="asset/image/thumb_img2.jpg" alt="img-one"/>
+					</div>
+
+				</div>
+			</div>
+			<div class="gallery-btn colle-btn">
+				<a class="btn1" href="#">All Works</a>
+			</div>
+		</section>
+		<!-- page link item -->
+		<section class="page-link">
+			<div class="container">
+				<div class="page-link-item">
+					<h2><a href="works.html">Works</a></h2>
+					<h2><a href="about.html">About</a></h2>
+				</div>
+			</div>
+		</section>
+		<!-- Footer area -->
+		<footer class="footer-area">
+			<div class="container">
+				<div class="footer-items">
+					<div class="footer-single-item">
+						<h4>Get in Touch</h4>
+						<p>hello@yoursite</p>
+					</div>
+					<div class="footer-single-item">
+						<ul>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Pinterest</a></li>
+							<li><a href="#">Dribble</a></li>
+							<li><a href="#">Linkedin</a></li>
+						</ul>
+					</div>
+					<div class="footer-single-item">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Works</a></li>
+							<li><a href="#">Logo Collection</a></li>
+							<li><a href="#">About & Contact</a></li>
+							<li><a href="#">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+
+		<!-- js file -->
+		<script>
+			var btnToggle1 = document.getElementById('menu-area');
+			var menu = document.querySelector('.menu');
+			function btnToggle(){
+				btnToggle1.classList.add('active');
+				menu.classList.add('add-menu');
+			}
+			function btnClose(){
+				btnToggle1.classList.remove('active');
+				menu.classList.remove('add-menu');
+			}
+		</script>
+	</body>
+</html>

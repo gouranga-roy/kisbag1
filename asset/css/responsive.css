@@ -1,0 +1,215 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*Max-width 1200px*/
+@media all and (max-width: 1200px){
+	.container{
+		padding: 0 1rem;
+	}
+}
+/*Max-width 990px*/
+@media all and (max-width: 990px){
+	/*project-area*/
+	.project-left p{
+		max-width: 350px !important;
+	}
+	.project-left p:last-child{
+		display: none;
+	}
+	/*gannery-single-image*/
+	.gannery-single-image {
+		width: 100%;
+		height: inherit !important;
+	}
+	.gannery-single-image::before {
+		width: 350px !important;
+		height: 350px !important;
+	}
+	.gannery-single-image::after {
+		width: 350px !important;
+		height: 350px !important;
+	}
+	/*collection-items*/
+	.collection-items {
+		-ms-grid-columns: 1fr 2rem 1fr;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+	}
+	.collection:last-child {
+		-ms-grid-column-span: 2;
+		grid-column: span 2;
+	}
+}
+
+/*Max-width 767px*/
+@media all and (max-width: 767px){
+	/*project-items*/
+	.project-area {
+		height: inherit !important;
+		overflow: hidden;
+	}
+	.project-items {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.project-left{
+		margin-bottom: 10rem;
+	}
+	.project-left p{
+		max-width: 100% !important;
+	}
+	.project-right {
+		max-width: 500px;
+		width: 100%;
+		margin: auto;
+	}
+	
+	/*slider-content */
+	.slider-content h2{
+		font-size: 4rem !important;
+	}
+	/*project-date*/
+	.project-date {
+		overflow: hidden;
+		margin-top: 5rem;
+	}
+	.project-date-items {
+		-ms-grid-columns: (1fr)[1] !important;
+		grid-template-columns: repeat(1,1fr) !important;
+	}
+	.date-item:last-child {
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+	}
+	/*project-image*/
+	.project-image-items {
+		-ms-grid-columns: (1fr)[1] !important;
+		grid-template-columns: repeat(1,1fr) !important;
+	}
+	.project-hover {
+		max-width: 500px;
+		margin: auto;
+	}
+	.project-image {
+		padding-bottom: inherit !important; 
+	}
+	/*gannery-single-image*/
+	.gannery-single-image::before {
+		width: 200px !important;
+		height: 200px !important;
+	}
+	.gannery-single-image::after {
+		width: 200px !important;
+		height: 200px !important;
+	}
+	.social-icon i {
+		font-size: 2rem !important;
+		 margin: .2rem !important; 
+	}
+	.page-link-item h2{
+		padding: 0 8rem;
+	}
+	/*collection-items*/
+	.collection-items {
+		-ms-grid-columns: 1fr 1rem 1fr;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+	}
+	.banner-content h2 {
+		font-size: 3.5rem;
+	}
+}
+
+/*Max-width 480px*/
+@media all and (max-width: 480px){
+	/*header-logo*/
+	.header-logo {
+		padding: 3rem !important;
+	}
+	.header-logo h2 a {
+		font-size: 2rem;
+	}
+	/*slider-content */
+	.slider-content h2{
+		font-size: 2.5rem !important;
+	}
+	.slider-content p {
+		max-width: 100% !important;
+	}
+	.project-right {
+		position: inherit !important;
+		margin-top: -5rem;
+	}
+	/*gallery-image*/
+	.gallery-image {
+		-ms-grid-columns: (1fr)[1] !important;
+		grid-template-columns: repeat(1,1fr) !important;
+	}
+	.gannery-single-image:last-child {
+		-ms-grid-column-span: 1 !important;
+		grid-column: span 1 !important;
+	}
+	.gannery-single-image::before {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	.gannery-single-image::after {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	.social-icon i {
+		font-size: 3rem !important;
+		margin: .3rem !important; 
+	}
+	/*footer-items*/
+	.footer-items {
+		-ms-grid-columns: (1fr)[2] !important;
+		grid-template-columns: repeat(2, 1fr) !important;
+	}
+	.footer-single-item:first-child{
+		-ms-grid-column-span: 2;
+		grid-column: span 2;
+		text-align: center;
+	}
+	/*work-simple-projec*/
+	.work-simple-project {
+		-ms-grid-columns: (1fr)[1];
+		grid-template-columns: repeat(1, 1fr);
+	}
+	/*page-link-item*/
+	.page-link-item {
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		padding: 10rem 0;
+	}
+	.page-link-item h2 {
+		padding: 0 5rem ;
+	}
+	/*banner-content*/
+	.banner-content h2 {
+		font-size: 3.5rem;
+	}
+	/*collection-items*/
+	.collection-items {
+		-ms-grid-columns: 1fr;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.collection-items {
+		grid-gap: 0;
+		grid-row-gap: 1rem;
+	}
+	.banner-content h2 {
+		font-size: 2.5rem;
+	}
+}
